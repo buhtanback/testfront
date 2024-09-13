@@ -7,19 +7,34 @@ body {
     line-height: 1.6;
 }
 
-h1 {
-    color: #2c3e50;
+header {
+    background: url('https://static.jobscan.co/blog/uploads/resume-builder-examples.png') no-repeat center center;
+    background-size: cover;
+    color: #000; /* Чорний колір для тексту */
+    padding: 40px 20px;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    height: 300px; /* Задаємо висоту для перевірки */
 }
 
-h2 {
-    color: #2c3e50;
-    border-bottom: 2px solid #3498db;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
+header h1 {
+    font-size: 3em; /* Крупний шрифт для імені */
+    margin: 0;
+    color: #000; /* Чорний колір для заголовка h1 */
 }
+
+header h2 {
+    font-size: 1.5em; /* Середній шрифт для посади */
+    margin: 10px 0;
+    color: #000; /* Чорний колір для заголовка h2 */
+}
+
+header .slogan {
+    font-size: 1em; /* Мелкий шрифт для слогану */
+    font-style: italic;
+    margin: 10px 0 0;
+    color: #000; /* Чорний колір для слогану */
+}
+
 
 p {
     margin-bottom: 15px;

@@ -4,23 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Резюме вигаданого персонажа</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-        h1 {
-            color: #333;
-        }
-        p {
-            line-height: 1.6;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css"> <!-- Підключення CSS-файлу -->
 </head>
 <body>
-    <h1>Ім'я: Джон Доу</h1>
-    <p><strong>Посада:</strong> Фантастичний детектив</p>
+    <header>
+        <h1>Джон Доу</h1>
+        <h2>Фантастичний детектив</h2>
+        <p class="slogan">Розслідування з великим стилем</p>
+    </header>
+
     <p><strong>Місцезнаходження:</strong> Лондон, Великобританія</p>
     <hr>
 
@@ -46,7 +38,9 @@
     <hr>
 
     <h2>Контакти</h2>
-    <p><strong>Email:</strong> johndoe@example.com</p>
-    <p><strong>Телефон:</strong> +44 123 456 789</p>
+    <div class="contacts">
+        <p><strong>Email:</strong> johndoe@example.com</p>
+        <p><strong>Телефон:</strong> +44 123 456 789</p>
+    </div>
 </body>
 </html>
