@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Резюме вигаданого персонажа</title>
-    <link rel="stylesheet" href="style.css"> <!-- Підключення CSS-файлу -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <header>
@@ -13,34 +14,53 @@
         <p class="slogan">Розслідування з великим стилем</p>
     </header>
 
-    <p><strong>Місцезнаходження:</strong> Лондон, Великобританія</p>
-    <hr>
+    <section class="contact-info">
+        <h2>Контакти</h2>
+        <ul>
+            <li><i class="fas fa-envelope"></i> johndoe@example.com</li>
+            <li><i class="fas fa-phone"></i> +44 123 456 789</li>
+            <li><i class="fas fa-map-marker-alt"></i> Лондон, Великобританія</li>
+        </ul>
+    </section>
 
-    <h2>Освіта</h2>
-    <p><strong>Університет:</strong> Університет вигаданих наук</p>
-    <p><strong>Ступінь:</strong> Магістр детективних розслідувань</p>
-    <hr>
+    <section class="work-experience">
+        <h2>Досвід роботи</h2>
 
-    <h2>Досвід роботи</h2>
-    <p><strong>Фірма:</strong> Агентство "Шерлок і Ко"</p>
-    <p><strong>Посада:</strong> Провідний детектив</p>
-    <p><strong>Період:</strong> 2015 - 2023</p>
-    <p><strong>Опис:</strong> Розслідував більше 100 заплутаних справ, працював з міжнародними організаціями та отримав численні нагороди за досягнення в сфері розслідувань.</p>
-    <hr>
+        <div class="job">
+            <h3 class="company">Агентство "Шерлок і Ко"</h3>
+            <p class="position">Провідний детектив</p>
+            <p class="dates">2015 - 2023</p>
+            <p class="description">Розслідував більше 100 заплутаних справ, працював з міжнародними організаціями та отримав численні нагороди за досягнення в сфері розслідувань.</p>
+        </div>
 
-    <h2>Навички</h2>
-    <ul>
-        <li>Аналітичне мислення</li>
-        <li>Комунікабельність</li>
-        <li>Володіння іноземними мовами (французька, німецька)</li>
-        <li>Володіння комп'ютерними технологіями та програмуванням</li>
-    </ul>
-    <hr>
+        <div class="job">
+            <h3 class="company">Агентство "Розшук"</h3>
+            <p class="position">Детектив</p>
+            <p class="dates">2010 - 2015</p>
+            <p class="description">Виконував розслідування складних кримінальних справ, спеціалізувався на міжнародних злочинах.</p>
+        </div>
 
-    <h2>Контакти</h2>
-    <div class="contacts">
-        <p><strong>Email:</strong> johndoe@example.com</p>
-        <p><strong>Телефон:</strong> +44 123 456 789</p>
-    </div>
+        <div class="job">
+            <h3 class="company">Детективне бюро "Інкогніто"</h3>
+            <p class="position">Молодший детектив</p>
+            <p class="dates">2008 - 2010</p>
+            <p class="description">Допомагав у розслідуваннях під керівництвом старших детективів, працював з доказами і свідками.</p>
+        </div>
+    </section>
+
+    <section class="education">
+        <h2>Освіта</h2>
+        <div class="education-item">
+            <h3 class="institution">Університет вигаданих наук</h3>
+            <p class="degree">Магістр детективних розслідувань</p>
+            <p class="years">2010 - 2012</p>
+        </div>
+
+        <div class="education-item">
+            <h3 class="institution">Факультет детективних наук</h3>
+            <p class="degree">Бакалавр кримінології</p>
+            <p class="years">2006 - 2010</p>
+        </div>
+    </section>
 </body>
 </html>

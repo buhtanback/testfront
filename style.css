@@ -10,56 +10,134 @@ body {
 header {
     background: url('https://static.jobscan.co/blog/uploads/resume-builder-examples.png') no-repeat center center;
     background-size: cover;
-    color: #000; /* Чорний колір для тексту */
+    color: #000;
     padding: 40px 20px;
     text-align: center;
-    height: 300px; /* Задаємо висоту для перевірки */
+    height: 300px;
 }
 
 header h1 {
-    font-size: 3em; /* Крупний шрифт для імені */
+    font-size: 3em;
     margin: 0;
-    color: #000; /* Чорний колір для заголовка h1 */
 }
 
 header h2 {
-    font-size: 1.5em; /* Середній шрифт для посади */
+    font-size: 1.5em;
     margin: 10px 0;
-    color: #000; /* Чорний колір для заголовка h2 */
 }
 
 header .slogan {
-    font-size: 1em; /* Мелкий шрифт для слогану */
+    font-size: 1em;
     font-style: italic;
     margin: 10px 0 0;
-    color: #000; /* Чорний колір для слогану */
 }
 
-
-p {
-    margin-bottom: 15px;
-}
-
-hr {
-    border: 0;
-    border-top: 1px solid #3498db;
+.contact-info {
+    background-color: #fff;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    padding: 20px;
     margin: 20px 0;
 }
 
-ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
+.contact-info h2 {
+    margin-top: 0;
 }
 
-ul li {
-    background-color: #ecf0f1;
+.contact-info ul {
+    padding-left: 20px;
+}
+
+.contact-info li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #bdc3c7;
+}
+
+.contact-info i {
+    font-size: 1.2em;
+    color: #3498db;
+    margin-right: 10px;
+}
+
+.work-experience {
+    background-color: #fff;
     border: 1px solid #bdc3c7;
     border-radius: 5px;
-    padding: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Відстань між блоками роботи */
+}
+
+.work-experience h2 {
+    margin-top: 0;
+}
+
+.job {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Відстань між елементами в кожному блоці */
+}
+
+.company {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #3498db;
+}
+
+.position {
+    font-size: 1.2em;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.dates {
+    font-size: 1em;
+    color: #7f8c8d;
     margin-bottom: 10px;
 }
 
-.contacts p {
+.description {
+    margin-bottom: 10px;
+}
+
+.education {
+    background-color: #eaf2f8;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Відстань між блоками освіти */
+}
+
+.education h2 {
+    margin-top: 0;
+}
+
+.education-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Відстань між елементами в кожному блоці */
+}
+
+.institution {
+    font-size: 1.5em;
     font-weight: bold;
+    color: #3498db;
+}
+
+.degree {
+    font-size: 1.2em;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.years {
+    font-size: 1em;
+    color: #7f8c8d;
 }
